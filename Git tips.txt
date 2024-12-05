@@ -1,0 +1,3 @@
+To initialize a new repo for git -- command -- git init
+To edit your user credentials such as email or name use the command --> git config --global user.email [name of email] "llwmuchiri@gmail.com"
+To configure the branch used at the moment use the command --> git config --global init.defaultBranch [name of branch]

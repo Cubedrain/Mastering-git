@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width initial-scale=1.0"> <!-- Prevents the browser from scaling a design from desktop on mobile-->
+        <link rel="stylesheet" href="styles.css"/>
+        <link rel="stylesheet" href="styles.css" media="all and (orientation:landscape)"/>
+        <title>Practice</title>
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <!--Some code here-->
+    </body>
+</html>
+<!-- 
+    There's another attribute called hreflang which you can use on links. The hreflang takes the same language code notation as the lang attribute and describes the linked document's language. If there's a translation of your entire page available in German, link to it like this:
+
+
+    <a href="/path/to/german/version" hreflang="de">German version</a>
+    If you use text in German to describe the link to the German version, use both hreflang and lang. Here, the text "Deutsche Version" is marked up as being in the German language, and the destination link is also marked up as being in German:
+    
+    
+    <a href="/path/to/german/version" hreflang="de" lang="de">Deutsche Version</a>
+    
+    You can also use the hreflang attribute on the link element. This goes in the head of your document:
+    
+    
+    <link href="/path/to/german/version" rel="alternate" hreflang="de">
+    But unlike the lang attribute, which can go on any element, hreflang can only be applied to a and link elements.
+
+    Attributes like lang and hreflang make your HTML more meaningful for internationalization. Likewise, logical properties make your CSS more adaptable.
+
+    If you're used to thinking in terms of top, bottom, left, and right, it might be hard to start thinking of block start, block end, inline start and inline end instead. But it's worth it. Logical properties are key to creating truly responsive layouts.
+    
+    In English, the physical right side of a box, is logically which side?
+    
+    inline-start
+    In English this is left
+    inline-end
+    
+    Correct answer.
+    block-start
+    Try again! In English this is top
+    Try again.
+    block-end
+    Try again! In English this is bottom
+    Try again.
+    
+    Macro layouts are foundational layouts for a page, spanning large amounts of visual area, and often are adjusted with page size media queries.
+    Creating components that can adapt to their container can be easier with container queries.
+-->

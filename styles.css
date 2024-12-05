@@ -1,0 +1,58 @@
+@media print{
+    body{
+        color:black;
+        background-color:white;
+    }
+}
+
+@media all and (orientation:landscape){
+
+}
+
+@media all and (orientation:portrait){
+
+}
+
+body{
+    color:white;
+    background-color:black;
+}
+
+/* 
+    Images based websites use pixels
+    Text bases websites use em or ch
+    Defualt media type is all
+    Media queries can also be used for dark,light sytem preference and many more
+*/
+@media (min-width:25em){
+
+}
+@media (min-width:25em) and (max-width:60em){
+    
+}
+
+.block{
+    display: block;
+}
+
+/* Use logical properties rather than directional properties */
+/* Directional */
+.example{
+    text-align:right;
+}
+/* Logical-works on different languages as well*/
+.example{
+    text-align:end;
+}
+/* 
+    Declaring an element as a container.
+    Main,aside{
+        container-type:inline-size;
+    }
+
+    Adding fonts to a browser.
+    @font-face{
+        font-family:Roboto;
+        src:url('path to the font') format('woff2');
+    
+*/
