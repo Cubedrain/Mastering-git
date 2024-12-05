@@ -21,3 +21,9 @@ Shorthand for creating and switching to a new branch --> git checkout -b [name o
 To specify the header of the branch use the command --> git branch [name of branch] [name of defined branch to place it in] main
 
 Commit messages should answer the qn: If applied to the codebase, this commit will ________
+Pushing a branch in github cloud repo --> use the command --> git push --set-upstream origin [name of feature] --> this command doesnt merge with the main branch but rather adds itself as a branch in the github local repo but no merging and changes committed and tracked within the branch are stored only within that branch
+To push to changes made in the branch use git push -u origin [name of branch] normally it sends it to the main branch
+    But in this case we are using a different branch.
+    Git push
+Git pull --> to get into track with commited changes, you should pull in the changes into the branch incase someone else makes changes to the branch beforehand
+    Command --> git pull
