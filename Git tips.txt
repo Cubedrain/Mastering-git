@@ -38,5 +38,5 @@ Steps in forking
 7. Pull the merged changes into your local main branch
 8. Repeat from step 2
 
-So some steps to consider within the file.
-This is addition from the past branch
+So some steps to consider within the file. I have made changes to this line within the past branch.
+This is addition from the past branch i have made changes to this line.
