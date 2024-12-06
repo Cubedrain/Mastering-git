@@ -39,4 +39,32 @@ Steps in forking
 8. Repeat from step 2
 
 So some steps to consider within the file.
-This is addition from the past branch
+some writing of some text from the Future branch
+
+Methods of removing commits from the git repo:
+Types of resets:
+1. -- soft -> stages the commits into a working directory --> git reset --soft <commit-hash>
+2. -- hard --> deletes commits made before the current commit on time or being planned for --> git reset --hard <commit-hash>
+3. mixed -> same to soft but with an option of purely deleiting it. --> git reset <commit-hash>
+
+Reverting commits --> going back to a previous commit
+Git revert <<hash code>>
+Check the code for where to erase
+then git revert --continue to finalize on reversion
+
+To handle a merge conflict:
+1. First pull in all changes made via git pull
+2. Merge your branch with the main branch via git merge main or git merge
+3. Make your changes
+4. add and commit necessarily and correctfully
+5. Push your changes to git
+
+Merge conflicts occur when changes made to the file are done by 2 people on the same line of the file.
+
+Git revert,reset stash
+
+Git stash used to keep changes made from your final commit to where u have reached and not yet addded to the git local repo
+1. Start by making changes and simply saving them to the file.
+2. Call in git stash to store in those changes
+3. If you want a list of the stashes made in your repo do --> git stash list
+4. to apply the changes from the stash do --> git stash apply <stash name> e.g. git stash apply stash@{0}
